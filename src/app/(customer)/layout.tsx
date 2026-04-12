@@ -1,4 +1,3 @@
-import Footer from "../../shared/components/layout/Footer";
 import Header from "../../shared/components/layout/Header";
 
 export default function CustomerLayout({
@@ -10,7 +9,6 @@ export default function CustomerLayout({
     <div>
       <Header />
       <main>{children}</main>
-      <Footer />
     </div>
   );
 }
